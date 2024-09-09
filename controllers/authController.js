@@ -20,7 +20,7 @@ exports.register = (req, res) => {
     const userRole = role || 'user';
 
     User.create({ name, email, password: hashedPassword, role: userRole }, (err, result) => {
-        if (err) return res.status(500).send('Error registering user.');
+        if (err) return res.status(500).send('Error registering user.check email');
         res.status(201).send('User registered successfully!');
     });
 };
