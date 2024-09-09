@@ -134,3 +134,5 @@ This is a RESTful API for managing job applications. The system allows users to 
 A Postman collection has been included in the repository to test the API endpoints. You can import it into Postman and use it for testing.
 
 [ Postman Link](https://www.postman.com/altimetry-astronomer-93622011/public/collection/js4drui/wisdom-peak-analytics-assignment?action=share&creator=24840024)
+
+## [Backend Deployment Link](https://wisdom-peak-analytics-assignment.onrender.com)
